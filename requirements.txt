@@ -1,0 +1,15 @@
+flask
+openai
+convertapi
+PyPDF2
+flask_caching
+bs4
+pandas
+requests
+Gunicorn
+pillow
+rq
+reddis
+lxml
+flask_wtf
+email_validator

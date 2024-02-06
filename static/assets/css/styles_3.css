@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#promo {
+  text-align: center;
+  padding: 40px;
+  background-image: url("../../assets/img/pexels-cottonbro-studio-5989931.jpg");
+  background-size: cover;
+  margin-top: 65px;
+}
+
+#promo .round-3 {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: var(--bs-body-bg);
+  max-width: 800px;
+  margin: auto;
+}
+
+#promo .round-3 {
+  padding: 20px;
+}
+
+#promo .jumbotron {
+  border-radius: 30px;
+  padding: 20px;
+  background-color: var(--bs-body-bg);
+  max-width: 800px;
+  margin: auto;
+}
+
+@media (min-width: 992px) {
+  #promo .jumbotron {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  #promo {
+    padding: 20px;
+  }
+}
+
+.site-section {
+  text-align: center;
+  padding: 60 px;
+}
+
+#welcome p {
+  max-width: 800px;
+  font-size: 20px;
+  margin: auto;
+  margin-left: auto;
+}
+
+.site-section h1 {
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+#dark-section {
+  background-color: var(--bs-tertiary-bg);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: var(--bs-navbar-active-color);
+  color: #0a7fa5;
+}
+
+.navbar-brand {
+  padding-top: var(--bs-navbar-brand-padding-y);
+  padding-bottom: var(--bs-navbar-brand-padding-y);
+  margin-right: var(--bs-navbar-brand-margin-end);
+  font-size: var(--bs-navbar-brand-font-size);
+  color: var(--bs-navbar-brand-color);
+  text-decoration: none;
+  white-space: nowrap;
+  color: #06607e;
+}
+
+.icon-envelope-letter {
+  color: #06607e;
+}
+
+.far.fa-edit {
+  color: #06607e;
+}
+
+svg {
+  color: #06607e;
+}
+
+get-start.button {
+  text-align: center;
+}
+
+#gett a {
+  color: #09db44;
+}
+
+.gett {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.get-start {
+  color: #f8f9fa;
+}
+
+.text-bg-primary {
+  margin-bottom: 60px;
+}
+
+#welcome-1 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.bd {
+  margin-bottom: 60px;
+}
+
+#pip {
+  margin-bottom: 60;
+  margin-bottom: 60px;
+}
+
+#welcome h1 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+p {
+}
+
+.text-bg-primary {
+}
+
+p {
+}
+
+.py-4 {
+  padding-top: 1.5rem!important;
+  padding-bottom: 1.5rem!important;
+  margin-bottom: 10;
+}
+
+#welcome h1 {
+  margin-bottom: 60px;
+  /*background-image: url("../../assets/img/pexels-andrea-piacquadio-3760072.jpg");*/
+  /*background-size: cover;*/
+}
+
+h1 {
+}
+
+.bd {
+  background-image: url("../../assets/img/pexels-fauxels-3184465.jpg");
+  background-size: cover;
+}
+
+#bg {
+  /*text-align: center;*/
+  /*padding: 20px;*/
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.btn {
+}
+
+.getintouch {
+  height: auto;
+  background-image: url("../../assets/img/Get%20In%20touch/GetInTouch.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*margin-bottom: 60px;*/
+  padding-bottom: 100px;
+}
+

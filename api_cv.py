@@ -18,7 +18,7 @@ def compare_data(resume_data, keyword, to_email):
         links = links[:10]
     job_details = get_details(links)
     job_details = extract_text_from_csv(job_details)
-    client = OpenAI(api_key= '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')
+    client = OpenAI(api_key= '<your-OpenAI-secret-key>')
 
     response = client.chat.completions.create(
         model="gpt-4-1106-preview",
@@ -93,7 +93,7 @@ def job_market_resumer(keyword, to_email):
         links = links[:10]
     job_details = get_details(links)
     job_details = extract_text_from_csv(job_details)
-    client = OpenAI(api_key= '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')
+    client = OpenAI(api_key= '<your-OpenAI-secret-key>')
 
     response = client.chat.completions.create(
         model="gpt-4-1106-preview",
@@ -150,7 +150,7 @@ def compare_data_let(lettre_data, keyword, to_email):
         links = links[:10]
     job_details = get_details(links)
     job_details = extract_text_from_csv(job_details)
-    client = OpenAI(api_key= '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')
+    client = OpenAI(api_key= '<your-OpenAI-secret-key>')
 
     response = client.chat.completions.create(
         model="gpt-4-1106-preview",

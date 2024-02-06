@@ -9,7 +9,7 @@ from email import encoders
 import convertapi
 from rekrute import get_results, get_details, extract_text_from_csv
 
-convertapi.api_secret = 'tkHjgzt6QVQJjNSr'
+convertapi.api_secret = '<convert-api-key>'
 
 
 def compare_data(resume_data, keyword, to_email):
@@ -65,7 +65,7 @@ def compare_data(resume_data, keyword, to_email):
     
     server = smtplib.SMTP('smtp-relay.brevo.com', 587)
     server.starttls()
-    server.login('taha.ferhan@hotmail.com', '52STO3wEm8FWBL6c')
+    server.login('taha.ferhan@hotmail.com', '<smtp-api-key>')
     text = msg.as_string()
     server.sendmail('taha.ferhan@hotmail.com', to_email, text)
     server.quit()
@@ -138,7 +138,7 @@ def job_market_resumer(keyword, to_email):
     
     server = smtplib.SMTP('smtp-relay.brevo.com', 587)
     server.starttls()
-    server.login('taha.ferhan@hotmail.com', '52STO3wEm8FWBL6c')
+    server.login('taha.ferhan@hotmail.com', '<smtp-api-key>')
     text = msg.as_string()
     server.sendmail('taha.ferhan@hotmail.com', to_email, text)
     server.quit()
@@ -197,7 +197,7 @@ def compare_data_let(lettre_data, keyword, to_email):
     
     server = smtplib.SMTP('smtp-relay.brevo.com', 587)
     server.starttls()
-    server.login('taha.ferhan@hotmail.com', '52STO3wEm8FWBL6c')
+    server.login('taha.ferhan@hotmail.com', '<smtp-api-key>')
     text = msg.as_string()
     server.sendmail('taha.ferhan@hotmail.com', to_email, text)
     server.quit()

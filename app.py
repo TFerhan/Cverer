@@ -112,7 +112,7 @@ def contact():
         try:
             server = smtplib.SMTP('smtp-relay.brevo.com', 587)
             server.starttls()
-            server.login('taha.ferhan@hotmail.com', '52STO3wEm8FWBL6c')
+            server.login('taha.ferhan@hotmail.com', '<smtp-api-key>')
             text = msg.as_string()
             server.sendmail(email, 'taha.ferhan@hotmail.com', text)
             server.quit()

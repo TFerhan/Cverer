@@ -17,7 +17,7 @@ import smtplib
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'WlUrPgXjHOL9OquLGcQ96yfoZOyNLfCYFV05NUQN9DE3Fb4tUcWW02s4pYySzeDj'
 
-convertapi.api_secret = 'tkHjgzt6QVQJjNSr'
+convertapi.api_secret = '<convert-api-key>'
 
 #r = Redis.from_url('<your-Redis-connection-url>')
 r = redis.Redis(host='localhost', port=6379, decode_responses=True)

@@ -7,13 +7,13 @@ For the local direct installation:
 
 1-Install the libraries included in the requirements.txt file 
 ```bash
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
 2- If you're using Windows, ensure that you have WSL installed and configured on your system. You can find instructions for installing WSL here: [WSL Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install) Or go to the Microsoft Store and install Ubuntu 
 
 3- Run the rq worker on the wsl
 ```bash
-rq worker
+  rq worker
 
 4- You Need Three APIs, two for free and one paid:
 Free:
@@ -26,7 +26,7 @@ Paid:
 
 5- Run the app.py
 ```bash
-python app.py
+  python app.py
 
 
 

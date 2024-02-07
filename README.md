@@ -47,7 +47,6 @@ BeautifulSoup was used to scrap the Data and stored in panda's DataFrame.
 
 Flask for the back-end and HTML, CSS, BOOTSTRAP for the front-end.
 
-Procfile is used to deploy the app on Heroku.
 
 ## Contact 
 This project was created by :

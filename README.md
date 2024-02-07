@@ -16,7 +16,7 @@ pip install -r requirements.txt
 rq worker
 ```
 
-4- You Need Three APIs, two for free and one paid:
+4- You Need Three APIs, two for free and one paid:\n
 Free:
 -[ConvertApi](https://www.convertapi.com/) to convert the generated text analysis to a PDF file. It is used in the main app.py and api_cv.py files.
 -[Brevo](https://www.brevo.com/fr/lp/smtp/) (Optional) to send results by mail, you can always send it by login to your user mail by password and use the default port 597. It is used in app.py and api_cv.py file.

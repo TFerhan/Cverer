@@ -45,7 +45,9 @@ Fine tunning the Open Ai API parameters (e.g temperature, top p...) was essentia
 
 BeautifulSoup was used to scrap the Data and stored in panda's DataFrame.
 
-Flask for the back-end and HTML, CSS, BOOTSTRAP for the front-end.
+Flask and Redis for the back-end.
+
+Bootstrap, HTML, CSS for the front-end.
 
 
 ## Contact 
